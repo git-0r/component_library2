@@ -101,6 +101,12 @@ code span {
   margin: 2rem 0 0 0;
 }
 
+.responsive-img-container {
+  width: 18.75rem;
+  border-radius: var(--border-radius-sm);
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 1200px) {
   .sidebar__two {
     display: none;
