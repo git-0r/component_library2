@@ -1,0 +1,7 @@
+@import "./comp_lib_styles/global.css";
+@import "./comp_lib_styles/utils/flex.css";
+@import "./comp_lib_styles/utils/typography.css";
+
+@import "./comp_lib_styles/components/avatar.css";
+@import "./comp_lib_styles/components/badge.css";
+@import "./comp_lib_styles/components/image.css";
