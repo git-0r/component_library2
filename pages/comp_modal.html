@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentation</title>
+    <title>Modal</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../style.css">
 </head>
@@ -37,7 +37,7 @@
                     <li class="menu__item"><a class="menu__link" href="./comp_card.html">Card</a></li>
                     <li class="menu__item"><a class="menu__link" href="./comp_text.html">Text</a></li>
                     <li class="menu__item"><a class="menu__link" href="./comp_list.html">List</a></li>
-                    <li class="menu__item"><a class="menu__link" href="./comp_navigation.html">Navigation</a></li>
+                    <li class="menu__item"><a class="menu__link" href="./comp_navigation.html">navigation</a></li>
                     <li class="menu__item"><a class="menu__link" href="./comp_modal.html">Modal</a></li>
                     <li class="menu__item"><a class="menu__link" href="./comp_rating.html">Rating</a></li>
                     <li class="menu__item"><a class="menu__link" href="./comp_snackbar.html">Snackbar</a></li>
@@ -47,29 +47,37 @@
         </nav>
         <section class="docs__section box-shadow">
             <article class="docs__content">
-                <h1 id="image">Image</h1>
-                <h2 id="responsive-image">Responsive image</h2>
+                <h1 id="modal">Modal</h1>
                 <div class="component__container">
-                    <div class="responsive-img-container">
-                        <img class="responsive-img" src="https://picsum.photos/300" alt="responsive image">
+                    <button class="btn btn-primary btn-open-modal">Toggle modal</button>
+                    <div class="modal-container flex-center">
+                        <div class="modal-content">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus amet, adipisci sit
+                                placeat ipsam
+                                fugit quis ut ad illo omnis at libero reiciendis deleniti. Autem sequi asperiores
+                                culpa
+                                aperiam et.
+                            </p>
+                            <button class="btn btn-primary btn-close-modal">close</button>
+                        </div>
                     </div>
                 </div>
-                <pre><code class="language-html">&lt;img class=&quot;responsive-img&quot; src=&quot;https://picsum.photos/300&quot; alt=&quot;responsive image&quot;&gt;</code></pre>
-                <hr>
-                <h2 id="round-image">Round image</h2>
-                <div class="component__container">
-                    <img class="round-img" src="https://picsum.photos/300" alt="round image">
-                </div>
-                <pre><code class="language-html">&lt;img class=&quot;round-img&quot; src=&quot;https://picsum.photos/300&quot; alt=&quot;round image&quot;&gt;</code></pre>
+                <pre><code class="language-html">&lt;div class=&quot;modal-container flex-center&quot;&gt;
+    &lt;div class=&quot;modal-content&quot;&gt;
+        &lt;p&gt;Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+         Ducimus amet, adipisci sit placeat ipsam fugit quis ut ad illo
+          omnis at libero reiciendis deleniti. Autem sequi asperiores culpa aperiam et.
+        &lt;/p&gt;
+        &lt;button class=&quot;btn btn-primary btn-close-modal&quot;&gt;close&lt;/button&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
             </article>
         </section>
         <nav class="sidebar sidebar__two">
             <details open>
                 <summary>on this page</summary>
                 <ul class="menu__items">
-                    <li class="menu__item"><a class="menu__link" href="#image">Image</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#responsive-image">Responsive image</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#round-image">Round Image</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#modal">Modal</a></li>
                 </ul>
             </details>
         </nav>
@@ -77,6 +85,7 @@
     <link rel="stylesheet" href="//unpkg.com/@highlightjs/cdn-assets@11.4.0/styles/atom-one-dark-reasonable.min.css">
     <script src="//unpkg.com/@highlightjs/cdn-assets@11.4.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
+    <script type="module" src="../index.js"></script>
 </body>
 
 </html>
