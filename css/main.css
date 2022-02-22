@@ -5,3 +5,6 @@
 @import "./comp_lib_styles/components/avatar.css";
 @import "./comp_lib_styles/components/badge.css";
 @import "./comp_lib_styles/components/image.css";
+@import "./comp_lib_styles/components/alert.css";
+@import "./comp_lib_styles/components/button.css";
+@import "./comp_lib_styles/components/input.css";
