@@ -8,7 +8,7 @@ A component library built with HTML and CSS only.
 https://objective-banach-71e419.netlify.app/main.d8c72a9941bec826e9fd.css
 ```
 
-## [Visit documentation page]()
+---
 
 ## List of components
 
@@ -21,6 +21,18 @@ https://objective-banach-71e419.netlify.app/main.d8c72a9941bec826e9fd.css
 - List
 - Navigation
 - Text
+
+---
+
+## Projects
+
+- Some projects using this component library:
+  - ### [E-commerce screens](https://ecom-screens-4sh2nlv9c-git-0r.vercel.app/)
+    ![e commerce screens](https://res.cloudinary.com/clouduser/image/upload/v1645506412/ecom1_n840dk.png)
+  - ### [Quiz screens](https://quiz-screens-ovjxkzmde-git-0r.vercel.app/)
+    ![quiz screens](https://res.cloudinary.com/clouduser/image/upload/v1645541448/quiz1_sifmy5.png)
+
+---
 
 ## Getting Started
 

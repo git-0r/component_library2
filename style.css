@@ -47,7 +47,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px solid hsla(209, 75%, 50%, 8%);
   border-radius: var(--border-radius-sm);
   background-color: var(--clr-white-full);
   font-weight: var(--fw-bold);
@@ -81,7 +80,7 @@ body {
   border-radius: var(--border-radius-sm);
   background-color: var(--bg-main-content);
   position: sticky;
-  top: calc(1rem + 3rem);
+  top: 4.5rem;
   height: 85vh;
 }
 
