@@ -11,3 +11,7 @@
 @import "./comp_lib_styles/components/card.css";
 @import "./comp_lib_styles/components/list.css";
 @import "./comp_lib_styles/components/navigation.css";
+@import "./comp_lib_styles/components/modal.css";
+@import "./comp_lib_styles/components/rating.css";
+@import "./comp_lib_styles/components/snackbar.css";
+@import "./comp_lib_styles/components/grid.css";

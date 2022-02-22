@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentation</title>
+    <title>Rating</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../style.css">
 </head>
@@ -37,7 +37,7 @@
                     <li class="menu__item"><a class="menu__link" href="./comp_card.html">Card</a></li>
                     <li class="menu__item"><a class="menu__link" href="./comp_text.html">Text</a></li>
                     <li class="menu__item"><a class="menu__link" href="./comp_list.html">List</a></li>
-                    <li class="menu__item"><a class="menu__link" href="./comp_navigation.html">Navigation</a></li>
+                    <li class="menu__item"><a class="menu__link" href="./comp_navigation.html">navigation</a></li>
                     <li class="menu__item"><a class="menu__link" href="./comp_modal.html">Modal</a></li>
                     <li class="menu__item"><a class="menu__link" href="./comp_rating.html">Rating</a></li>
                     <li class="menu__item"><a class="menu__link" href="./comp_snackbar.html">Snackbar</a></li>
@@ -47,29 +47,48 @@
         </nav>
         <section class="docs__section box-shadow">
             <article class="docs__content">
-                <h1 id="image">Image</h1>
-                <h2 id="responsive-image">Responsive image</h2>
+                <h1 id="rating">Rating</h1>
                 <div class="component__container">
-                    <div class="responsive-img-container">
-                        <img class="responsive-img" src="https://picsum.photos/300" alt="responsive image">
+                    <div class="star-rating d-flex flex-align-center flex-justify-evenly">
+                        <input type="radio" name="stars" id="star-a" value="5" />
+                        <label for="star-a"></label>
+
+                        <input type="radio" name="stars" id="star-b" value="4" />
+                        <label for="star-b"></label>
+
+                        <input type="radio" name="stars" id="star-c" value="3" />
+                        <label for="star-c"></label>
+
+                        <input type="radio" name="stars" id="star-d" value="2" />
+                        <label for="star-d"></label>
+
+                        <input type="radio" name="stars" id="star-e" value="1" />
+                        <label for="star-e"></label>
                     </div>
                 </div>
-                <pre><code class="language-html">&lt;img class=&quot;responsive-img&quot; src=&quot;https://picsum.photos/300&quot; alt=&quot;responsive image&quot;&gt;</code></pre>
-                <hr>
-                <h2 id="round-image">Round image</h2>
-                <div class="component__container">
-                    <img class="round-img" src="https://picsum.photos/300" alt="round image">
-                </div>
-                <pre><code class="language-html">&lt;img class=&quot;round-img&quot; src=&quot;https://picsum.photos/300&quot; alt=&quot;round image&quot;&gt;</code></pre>
+                <pre><code class="language-html">&lt;div class=&quot;star-rating d-flex flex-align-center flex-justify-evenly&quot;&gt;
+    &lt;input type=&quot;radio&quot; name=&quot;stars&quot; id=&quot;star-a&quot; value=&quot;5&quot; /&gt;
+    &lt;label for=&quot;star-a&quot;&gt;&lt;/label&gt;
+    
+    &lt;input type=&quot;radio&quot; name=&quot;stars&quot; id=&quot;star-b&quot; value=&quot;4&quot; /&gt;
+    &lt;label for=&quot;star-b&quot;&gt;&lt;/label&gt;
+    
+    &lt;input type=&quot;radio&quot; name=&quot;stars&quot; id=&quot;star-c&quot; value=&quot;3&quot; /&gt;
+    &lt;label for=&quot;star-c&quot;&gt;&lt;/label&gt;
+    
+    &lt;input type=&quot;radio&quot; name=&quot;stars&quot; id=&quot;star-d&quot; value=&quot;2&quot; /&gt;
+    &lt;label for=&quot;star-d&quot;&gt;&lt;/label&gt;
+    
+    &lt;input type=&quot;radio&quot; name=&quot;stars&quot; id=&quot;star-e&quot; value=&quot;1&quot; /&gt;
+    &lt;label for=&quot;star-e&quot;&gt;&lt;/label&gt;
+&lt;/div&gt;</code></pre>
             </article>
         </section>
         <nav class="sidebar sidebar__two">
             <details open>
                 <summary>on this page</summary>
                 <ul class="menu__items">
-                    <li class="menu__item"><a class="menu__link" href="#image">Image</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#responsive-image">Responsive image</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#round-image">Round Image</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#rating">Rating</a></li>
                 </ul>
             </details>
         </nav>
