@@ -2,6 +2,7 @@
   padding: 0.5rem 1rem;
   margin: 0.5rem 0;
   font-size: 1rem;
+  font-family: inherit;
   font-weight: var(--fw-medium);
   color: var(--clr-white-full);
   border-radius: var(--border-radius-sm);

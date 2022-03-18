@@ -88,11 +88,10 @@
   --z-index-five: 5;
 }
 
-* {
-  box-sizing: border-box;
+body {
   font-family: var(--ff-sans-inter);
 }
 
-p {
-  margin: 0 0 1rem 0;
+* {
+  box-sizing: border-box;
 }
