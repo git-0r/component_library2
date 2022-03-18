@@ -208,6 +208,7 @@
   font-weight: 600;
   color: var(--ecom-clr-primary);
   text-align: center;
+  font-family: inherit;
 }
 
 .product-card {
