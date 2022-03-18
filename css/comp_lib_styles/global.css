@@ -86,6 +86,10 @@
   --z-index-three: 3;
   --z-index-four: 4;
   --z-index-five: 5;
+
+  --ecom-clr-primary: rgb(202, 173, 255);
+  --ecom-clr-bg-dark: rgb(21, 21, 21);
+  --ecom-clr-primary-outline: rgb(202, 173, 255, 0.1);
 }
 
 body {

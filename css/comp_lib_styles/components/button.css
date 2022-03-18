@@ -62,3 +62,23 @@
   display: inline-flex;
   border-radius: var(--border-radius-full);
 }
+
+/* --------add to cart button---------- */
+.btn-atc {
+  background: transparent;
+  padding: 0.5rem;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid var(--ecom-clr-primary);
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--ecom-clr-primary);
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.btn-atc:hover {
+  background-color: var(--ecom-clr-primary);
+  color: var(--ecom-clr-bg-dark);
+}
