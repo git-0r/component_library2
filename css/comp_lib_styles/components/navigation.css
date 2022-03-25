@@ -1,17 +1,20 @@
-.top-navigation-component {
-  width: 100%;
-  min-height: 3rem;
-  background-color: var(--clr-caution-disabled);
+.top-navigation {
+  height: 4rem;
+  font-size: 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
-.top-navigation-component .left {
+.top-navigation .left {
   flex: 1;
 }
 
-.top-navigation-component .center {
+.top-navigation .center {
   flex: 4;
+  list-style: none;
 }
 
-.top-navigation-component .right {
-  flex: 2;
+.top-navigation .right {
+  flex: 1;
 }
